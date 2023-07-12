@@ -19,8 +19,8 @@
 // _____________________________________________________________________________
 // РЕШЕНИЕ:
 
-const celsius = parseInt(prompt('Введите температуру в градусах Цельсия:'));
-const fahrenheit = ((9 / 5) * celsius + 32);
+const celsius = Number.parseFloat(prompt('Введите температуру в градусах Цельсия:'));
+const fahrenheit = 9 / 5 * celsius + 32;
 alert(`Перевод градусов Цельсия в градусы Фаренгейта: ${fahrenheit.toFixed(1)}`);
 
 
